@@ -159,6 +159,7 @@ header h3{
 }
 
 .charactsContainer h2{
+    margin: 0px;
     font-size: clamp(.9em, .9em + 1vw, 2em);
     color: #15803D;
 }
