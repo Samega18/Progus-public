@@ -261,6 +261,21 @@ header h3{
         width: 75%;
     }
 
+    .infoTextContainer h2{
+        font-size: clamp(1em, 1em + 1vw, 2em);
+        margin: 0px;
+    }
+    
+    .infoTextContainer p{
+        font-size: clamp(.8em, .8em + .7vw, 1.3em);
+        font-weight: 300;
+    }
+
+    .infoContainerReverse div ul li{
+        line-height: 32px;
+        font-size: clamp(.8em, .8em + .7vw, 1.3em);
+    }
+
     .imgContainer{
         width: 100%;
         padding-bottom: 4vw;
@@ -315,9 +330,9 @@ header h3{
     }
 
     .charact p{
-        margin-top: 1vw;
+        margin-top: .5vw;
         color: #000000;
-        font-size: clamp(.5em, .5em + 1vw, .9em);
+        font-size: clamp(.6em, .6em + 1vw, .9em);
     }
 
     .charact2{
@@ -334,9 +349,9 @@ header h3{
     }
 
     .charact2 p{
-        margin-top: 1vw;
+        margin-top: .5vw;
         color: #000000;
-        font-size: clamp(.5em, .5em + 1vw, .9em);
+        font-size: clamp(.6em, .6em + 1vw, .9em);
     }
 
     .backGreen{
