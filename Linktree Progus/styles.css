@@ -10,11 +10,22 @@ body {
     background-color: #16A34A;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
+
+    /* Select Block */
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
 }
 
 body img{
     width: 200px;
     height: auto;
+    user-select: none;
+    pointer-events: none;
 }
 
 body h1{
@@ -92,6 +103,8 @@ body h1{
 .link img{
     width: 22px;
     filter: grayscale(100%) brightness(1000%);
+    user-select: none;
+    pointer-events: none;
 }
 
 
