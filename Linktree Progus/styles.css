@@ -89,6 +89,12 @@ body h1{
     font-size: 22px;
 }
 
+.link img{
+    width: 22px;
+    filter: grayscale(100%) brightness(1000%);
+}
+
+
 .link span{
     font-size: 18px;
 }
@@ -96,4 +102,17 @@ body h1{
 .link:hover{
     background-color: #FFFFFF;
     color: #16A34A;
+}
+
+.link:hover img{
+    animation: mudarCor 0.3s forwards;
+}
+
+@keyframes mudarCor {
+    0% {
+      filter: grayscale(100%) brightness(1000%);
+    }
+    100% {
+      filter: none;
+    }
 }
